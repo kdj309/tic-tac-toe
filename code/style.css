@@ -1,0 +1,32 @@
+.box-container{
+    display:grid ;
+    grid-template-rows: repeat(3,9vw);
+    grid-template-columns: repeat(3,9vw);
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    border:2px solid white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game-info{
+    display: flex;
+    padding: 0.3em 0.5em;
+    flex-direction: column;
+    height: max-content;
+    color: white;
+}
+.box-div{
+    color: white;
+}
+#victoryimg{
+    transition: all 0.4s linear;
+    width: 0;
+}
